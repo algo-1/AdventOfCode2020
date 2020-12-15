@@ -6,7 +6,7 @@ for i in range(len(start_nums)):
     pairs[start_nums[i]] = [i+1, 0]
 
 j = len(start_nums)
-found = False 
+
 while j < 30000000: # 2020 for #q1
     last_num = start_nums[j-1] 
     if pairs[last_num][1] == 0:
